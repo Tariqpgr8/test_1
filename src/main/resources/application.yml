@@ -1,0 +1,17 @@
+display:
+  mach: 3
+  unit:
+    name: "mph"
+    factor: 2.23694
+quarkus:
+  http:
+    port: 7777
+  datasource:
+    db-kind: postgresql
+    username: postgres
+    password: Hplaptop1
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/postgres
+  hibernate-orm:
+    database:
+      generation: drop-and-create
