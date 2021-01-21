@@ -20,8 +20,8 @@ public class Employee extends PanacheEntity {
     @Column(table="Employee_Table", name="Employee_Address")
     public String address;
 
-    @Column(table="Employee_Table", name="Department_ID")
-    public String d_id;
+    //@Column(table="Employee_Table", name="Department_ID")
+    //public String d_id;
 
     public Employee(long e_id, String e_name, String c_number, String address) {
         this.e_id=e_id;
